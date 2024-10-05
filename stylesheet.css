@@ -1,0 +1,51 @@
+h2 {color:rgb(0, 0, 255);border: 2px solid black; border-left: 10px solid rgb(15, 165, 224);border-top: 0px;border-bottom:0px;border-right: 0px;padding: 8px;background-color: rgb(115, 240, 252);border-radius: 12px;}
+table {width:100%}
+th { background-color:rgb(200, 207, 201) ; padding:10px;}
+td {padding:12px;padding-right:50px}
+#name{font-weight: bold;}
+#Gender{font-weight: bold;}
+#name_box{width: 100%; padding-bottom: 4px; padding-top: 4px;}
+#Email{font-weight: bold;}
+#email_box{width: 100%;padding-bottom: 4px;padding-top: 4px;}
+#phonenumber{font-weight: bold}
+#number_box{width: 100%;padding-bottom: 4px;padding-top: 4px; }
+#states{width:100%;padding-bottom: 4px;padding-top: 4px; }
+#label_states{font-weight: bold}
+#feedback{font-weight: bold;}
+#textarea{width:100%;padding-bottom: 50px;}
+#submit{font-weight: 600;padding: 10px; text-align: center;background-color: rgb(0, 255, 145);}
+#reset{font-weight: 600;padding: 10px; text-align: center;margin: 10px;background-color: rgb(0, 255, 145);}
+#buttons{text-align: center;}
+#g20_image{width:200px ; height:130px;}
+#big_image{max-width: 100%;max-height: 100%;}
+hr{border: 1px solid;}
+footer{text-align: center;background-color: rgb(50,50,51);padding:15px; color: white;}
+#form{margin:13px;}
+html{scroll-padding-top: 100px;} /*it will leave some space of 100px when the navbar redirect us to the tag so that the navigation bar doesnt hide the heading , try by removing it and see the navigation bar goes  little more below and hides the heading because it is fixed */
+
+
+.topnavbar a{
+    float: right;
+    padding: 14px 15px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+} 
+.topnavbar{
+    overflow:hidden;background-color:  #333;
+    position: fixed;
+    top:0;
+    padding-left: 79%;
+    display: flex;}
+
+.topnavbar a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.topnavbar a.active{
+    background-color:  #04aa6d; ;
+    color: white;
+}
